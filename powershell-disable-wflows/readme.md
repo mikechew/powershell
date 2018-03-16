@@ -1,12 +1,11 @@
-
 ## What does this do?
 
-This is a powershell script that will disable a list of workflows in an Actifo Appliance.
+This is a powershell script that will disable a list of workflows on an Actifo Appliance.
 
 ## How does this work?
 
 There are two files needed for this to work.
-* disable-wflows.ps1_  This file needs no configuration.  
+* _disable-wflows.ps1_  This file needs no configuration.  
 * _actparams.ps1_  This is a parameter file that can be renamed.  Customise the values in the parameter file to your environment.
 * _wflowlist.txt_ (optional) If you want to specify the list of workflows in a file instead of using the actparams.ps1 file.  You can list all the workflows in this file, separate each workflow name with a comma (,).
 
